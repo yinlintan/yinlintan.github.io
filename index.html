@@ -6,7 +6,8 @@
 
 <link href="https://fonts.googleapis.com/css?family=Spectral:200,300,400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Work+Sans:800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:500,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
 
 
 <style type="text/css">
@@ -25,11 +26,12 @@ p {
 
 p b {
 	font-weight: 700;
+	color: #240090;
 }
 
 h1 {
 	font-family: 'Work Sans', serif;
-	font-size: 40pt;
+	font-size: 34pt;
 	color: #000000;
 	font-weight: 800;
 	text-align: center;
@@ -46,11 +48,12 @@ h2 {
 
 h3 {
 	font-family: 'Spectral', serif;
-	font-size: 11pt;
+	font-size: 10pt;
 	color: #000000;
 	font-weight: 400;
 	text-align: center;
 	margin-top: 0px;
+	letter-spacing: 1pt;
 }
 
 .main {
@@ -60,9 +63,36 @@ h3 {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	width: 700px;
+	width: 900px;
 	background: #ffffff;
-	padding: 50px;
+}
+
+.sidebar {
+	width: 350px;
+	float: left;
+}
+
+.content {
+	width: 550px;
+	float: right;
+	padding-top: 20px;
+}
+
+a.navigation {
+	font-family: 'Inconsolata', monospace;
+	color: #000000;
+	font-size: 11pt;
+	font-weight: 400;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	margin: 8px;
+	letter-spacing: .5pt;
+}
+
+a.navigation:hover {
+	color: #3500D3;
+	font-weight: 700;
 }
 
 </style>
@@ -75,12 +105,25 @@ h3 {
 
 <div class="main">
 
+<div class="sidebar">
+
 <h1>Tan Yin Lin</h1>
 <h3>WRITER / JOURNALIST</h3>
 
-<h2>Introduction</h2>
+<a href="/index.html" class="navigation">Home</a>
+<a href="/about.html" class="navigation">About</a>
+<a href="/portfolio.html" class="navigation">Portfolio</a>
+<a href="/contact.html" class="navigation">Contact</a>
+
+</div>
+
+<div class="content">
+
+<h2>Hello world!</h2>
 
 <p>Yin Lin is a Singapore-based writer and journalist who is passionate about understanding the world through journalism. She is especially interested in culture, identity, current affairs, and all forms of art, and particularly enjoys exploring issues related to East Asia. This is in <b>bold</b>.</p>
+
+</div>
 
 </div>
 
