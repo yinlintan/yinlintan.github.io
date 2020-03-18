@@ -5,6 +5,19 @@ body {
 }
 
 p {
-	font: normal 12pt arial;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14pt;
 	color: #000000;
+}
+
+h1 {
+	font-family: 'Spectral', serif;
+	font-size: 24pt;
+	color: #4056A1;
+}
+
+h2 {
+	font-family: 'Spectral', serif;
+	font-size: 18pt;
+	color: #F13C20;
 }
