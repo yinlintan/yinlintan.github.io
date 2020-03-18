@@ -1,5 +1,5 @@
 body {
-	background: #ffffff;
+	background: #4056A1;
 	font: normal 12pt arial;
 	color: #000000;
 }
@@ -14,10 +14,20 @@ h1 {
 	font-family: 'Spectral', serif;
 	font-size: 24pt;
 	color: #4056A1;
+	font-weight: normal;
+	text-align: center;
 }
 
 h2 {
 	font-family: 'Spectral', serif;
 	font-size: 18pt;
 	color: #F13C20;
+	font-weight: normal;
+}
+
+.main {
+	align: center;
+	width: 700px;
+	background: #ffffff;
+
 }
