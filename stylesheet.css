@@ -95,7 +95,7 @@ h3 {
 
 h4 {
 	font-family: 'Nunito', serif;
-	font-size: 14pt;
+	font-size: 15pt;
 	color: #000000;
 	font-weight: 400;
 	text-transform: none;
@@ -149,10 +149,13 @@ a.navigation b {
 
 p a, ul a {
 	text-decoration: none;
-	color: #3500D3;
+	border-bottom: 1pt solid #3500D3;
+	color: #181818;
+	transition: background 0.5s ease-in-out;
 }
 
 p a:hover, ul a:hover {
-	color: #3500D3;
-	text-decoration: underline;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: #3500D3;
 }
