@@ -1,0 +1,139 @@
+/* Website design by Tan Yin Lin 2020 */
+
+body {
+	background: #ffffff;
+	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1.5s; /* Firefox < 16 */
+    -ms-animation: fadein 1.5s; /* Internet Explorer */
+    -o-animation: fadein 1.5s; /* Opera < 12.1 */
+    animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+p, ul {
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-size: 15pt;
+	line-height: 26pt;
+	font-weight: 300;
+	color: #222222;
+	letter-spacing: 0pt;
+}
+
+.index p {
+	font-size: 20pt;
+	line-height: 30pt;
+}
+
+p b {
+	font-weight: 700;
+	color: #240090;
+}
+
+h2 {
+	font-family: 'Helvetica', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 14pt;
+	color: #000000;
+	font-weight: 600;
+	margin-bottom: -15px;
+	padding-top: 10px;
+}
+
+.main {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 900px;
+	padding-top: 80px;
+	background: 0;
+}
+
+.sidebar {
+	width: 100%;
+}
+
+.content {
+	width: 100%;
+	padding-bottom: 35px;
+	padding-top: 20px;
+}
+
+.sidebar a {
+	font-family: 'Helvetica', Arial, sans-serif;
+	color: #3500D3;
+	font-size: 14pt;
+	font-weight: 400;
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: none;
+	text-transform: uppercase;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 0px solid #3500D3;
+}
+
+.sidebar a:hover {
+	color: #3500D3;
+	font-weight: 400;
+}
+
+.sidebar a b {
+	text-decoration: none;
+	font-weight: 400;
+	border: 1px solid #3500D3;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+p a, ul a {
+	border-bottom: 1.5px solid #d35100;
+  	color: #000000;
+  	font-weight: 400;
+ 	padding-bottom: -2pt;
+  	text-decoration: none;
+}
+
+.index p a {
+	border-bottom: 2px solid #ed6c03;
+}
+
+p a:hover, ul a:hover {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ed6c03' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: 0;
+  text-decoration: none;
+  color: #000000;
+}
