@@ -68,9 +68,9 @@ h3 {
 	font-weight: 600;
 	margin-bottom: -15px;
 	padding-top: 10px;
-	color: transparent;
-  	-webkit-text-stroke: 1pt #000;
-  	letter-spacing: 1pt;
+	color: #000000;
+  	-webkit-text-stroke: 0pt #000;
+  	letter-spacing: .5pt;
 }
 
 .project {
