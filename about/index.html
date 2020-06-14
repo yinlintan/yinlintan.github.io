@@ -6,10 +6,8 @@
 
 <head>
 
-<link href="https://fonts.googleapis.com/css?family=Spectral:200,300,400&display=swap" rel="stylesheet">
+
 <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="stylesheet.css">
@@ -20,16 +18,38 @@
 
 <body>
 
-<div class="main">
-
-<div class="sidebar">
-	<a href="/about/" style="margin-left: 0px;"><b>About</b></a>
-	<a href="/writing/">Writing</a>
-	<a href="/projects/">Projects</a>
-	<a href="/contact/">Contact</a>
-	<a href="/" style="float: right; font-weight: 600; color: #000000">Tan Yin Lin 陈颖宁</a>
+<div class="header">
+	<h1>Tan Yin Lin <span class="man">陈颖宁</span></h1>
 </div>
 
+<input type="radio" name="toggle" id="radio1">
+<div class="nav">
+    <label for="radio1" class="menu-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+    </label>
+</div>
+
+
+<div class="menu">
+<input type="radio" name="toggle" id="radio2">
+<label for="radio2" class="cross">x</label>
+    <nav>
+      <a href="/" class="link">Index</a>
+      <a href="/about" class="link">About</a>
+      <a href="/writing" class="link">Writing</a>
+      <a href="/projects" class="link">Projects</a>
+      
+      <p><b>say hello to me via</b><BR>
+      	<a href="mailto:tylanin@gmail.com" class="contact" target="_blank">tylanin@gmail.com</a><BR>
+      	<a href="https://www.linkedin.com/in/tanyinlin/" target="_blank">linkedin</a><BR>
+      	<a href="http://twitter.com/yinlintan" target="_blank">twitter</a>
+      </p>
+    </nav>
+</div>
+
+<div class="main" style="width: 800px">
 <div class="content">
 
 <img src="https://i.imgur.com/nUi73z6.jpg" width="145" style="border-radius: 0; float: right; margin-top: 30px; margin-bottom: 15px; margin-left: 25px; margin-right: 0px">
@@ -45,7 +65,6 @@
 <p>When not writing, I can be found at the dance studio, practising ollies, running, planning my next trip, furiously editing this website, or dabbling in other creative pursuits.</p>
 
 </div>
-
 </div>
 
 </body>

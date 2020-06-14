@@ -6,10 +6,8 @@
 
 <head>
 
-<link href="https://fonts.googleapis.com/css?family=Spectral:200,300,400&display=swap" rel="stylesheet">
+
 <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="stylesheet.css">
@@ -20,38 +18,69 @@
 
 <body>
 
-<div class="main">
-
-<div class="sidebar">
-	<a href="/about/" style="margin-left: 0px;">About</a>
-	<a href="/writing/">Writing</a>
-	<a href="/projects/"><b>Projects</b></a>
-	<a href="/contact/">Contact</a>
-	<a href="/" style="float: right; font-weight: 600; color: #000000">Tan Yin Lin 陈颖宁</a>
+<div class="header">
+	<h1>Tan Yin Lin <span class="man">陈颖宁</span></h1>
 </div>
 
+<input type="radio" name="toggle" id="radio1">
+<div class="nav">
+    <label for="radio1" class="menu-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+    </label>
+</div>
+
+
+<div class="menu">
+<input type="radio" name="toggle" id="radio2">
+<label for="radio2" class="cross">x</label>
+    <nav>
+      <a href="/" class="link">Index</a>
+      <a href="/about" class="link">About</a>
+      <a href="/writing" class="link">Writing</a>
+      <a href="/projects" class="link">Projects</a>
+      
+      <p><b>say hello to me via</b><BR>
+      	<a href="mailto:tylanin@gmail.com" class="contact" target="_blank">tylanin@gmail.com</a><BR>
+      	<a href="https://www.linkedin.com/in/tanyinlin/" target="_blank">linkedin</a><BR>
+      	<a href="http://twitter.com/yinlintan" target="_blank">twitter</a>
+      </p>
+    </nav>
+</div>
+
+<div class="main" style="width: 800px">
 <div class="content">
 
-<div class="left">
-<h3>Writing</h3>
-<h2>134wpm — <a href="http://134wpm.substack.com" target="new">Newsletter</a></h2>
-<p>I write about interesting things. Think 'friend that sends you news and cool stuff'.</p>
+<p>Here's a link to my <a href="/writing/2020_tanyinlin.pdf" target="new">resume</a> and some articles that I've written:</p> 
 
-<h2>INTER.TXT — <a href="http://medium.com/inter-txt" target="new">Publication</a></h2>
-<p>I edit and write. It's a space where we navigate culture.</p> 
+<table style="width:100%">
 
-<h2>VTMB — <a href="http://verytravelmuchbroke.wordpress.com" target="new">Personal Blog</a></h2>
-<p>I talk about travel and non-travel stuff.</p>
+  <tr>
+    <th><h3>Writing</h3></th>
+    <td>    
+    <h2><a href="http://134wpm.substack.com" target="new">134wpm</a></h2>
+    <p>Twice a week, I send out snippets about interesting things I've seen/heard/read. Think 'friend that sends you news and cool stuff'.</p>
+
+    <h2><a href="http://medium.com/inter-txt" target="new">INTER.TXT</a></h2>
+    <p>I edit and write for INTER.TXT, a Medium publication. It's a space where we navigate culture.</p> 
+
+    <h2><a href="http://verytravelmuchbroke.wordpress.com" target="new">VTMB</a></h2>
+    <p>Personal blog where I talk about travel and non-travel stuff.</p>
+  </td>
+  </tr>
+
+  <tr>
+    <th><h3>Data</h3></th>
+    <td>    
+    <h2><a href="/projects/xdsdatastorytelling_hiv.png" target="new">Love Disease</a></h2>
+    <p>Drew a comic and utilised data storytelling to educate others on the stigma surrounding HIV.</p>
+  </td>
+  </tr>
+
+</table>
+
 </div>
-
-<div class="right">
-<h3>Data</h3>
-<h2>HIV Love Disease — <a href="/projects/xdsdatastorytelling_hiv.png" target="new">Comic</a></h2>
-<p>Utilised data storytelling to educate others on the stigma surrounding HIV.</p>
-</div>
-
-</div>
-
 </div>
 
 </body>
