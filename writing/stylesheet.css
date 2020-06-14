@@ -115,11 +115,11 @@ p a:hover, h2 a:hover {
   padding: 10px;
 }
 
-/* menu */
+/* menu bg */
 
 .menu {
   position: absolute;
-  background: #c5dbff;
+  background: #fff;
   height: 100%;
   width: 100%;
   text-align: right;
@@ -148,7 +148,7 @@ p a:hover, h2 a:hover {
 }
 
 .menu nav a.link:hover {
-  color: #000000;
+  color: #000;
   font-size: 30pt;
 }
 
