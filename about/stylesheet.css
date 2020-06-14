@@ -87,8 +87,8 @@ p b {
 /* links */
 p a, h2 a {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  border-bottom: 1.5px solid #80a4ff;
-  color: #80a4ff;
+  border-bottom: 1.5px solid #3500d3;
+  color: #3500d3;
   font-weight: 400;
   padding-bottom: -2pt;
   text-decoration: none;
@@ -235,7 +235,7 @@ nav p a:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 1000px;
+  width: 800px;
   padding-top: 80px;
   background: 0;
   z-index: 0;
@@ -264,12 +264,12 @@ table {
 }
 
 tr {
-  width: 25%;
+  width: 23%;
   vertical-align: top;
 }
 
 td {
-  width: 75%;
+  width: 77%;
 }
 
 /* projects page */
