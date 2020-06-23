@@ -62,6 +62,10 @@ p b {
   font-weight: 300;
 }
 
+.desc {
+  font-size: 11pt;
+} 
+
 /* header */
 
 .header {
