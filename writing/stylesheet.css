@@ -64,6 +64,8 @@ p b {
 
 .desc {
   font-size: 11pt;
+  text-align: none;
+  display: block;
 } 
 
 /* header */
