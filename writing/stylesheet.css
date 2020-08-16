@@ -64,29 +64,28 @@ p b {
 
 .desc {
   font-size: 11pt;
-  text-align: none;
-  display: block;
 } 
 
 /* header */
 
 .header {
   position: absolute;
-  top: 10px;
-  left: 20px;
-  padding: 10px;
+  top: 5px;
+  left: 30px;
+  padding: 0px;
 }
 
-.header h1 {
+.header h1 a {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-size: 20pt;
   color: #000000;
   font-weight: 600;
-  margin-top: 10px;
+  margin-top: 0px;
   letter-spacing: -0.2pt;
+  text-decoration: none;
 }
 
-.header h1 .man {
+.header h1 a .man {
   font-weight: 300;
 }
 
