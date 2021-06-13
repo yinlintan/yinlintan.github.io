@@ -1,4 +1,4 @@
-/* Website design by Tan Yin Lin 2020 */
+/* Website design by Yin Lin Tan 2020-2021 */
 
 body {
   background: #FFFFFF;
@@ -39,55 +39,26 @@ p, ul {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight: 400;
   color: #000000;
-  letter-spacing: 0pt;
   font-size: 13pt;
   line-height: 21pt;
   margin-top: 5px;
 }
 
-.index p {
-  font-size: 20pt;
-  line-height: 25pt;
-  letter-spacing: -0.35px;
+.hdr {
+  font-size: 22pt;
+  line-height: 38pt;
+  color: #363535;
+  font-family: 'Rubik Mono One';
+  display: block;
 }
 
 p b {
   font-weight: 600;
 }
 
-.index p b {
-  background: linear-gradient(180deg, transparent 62%, #80a4ff 0) 50%/0 75% no-repeat;
-  background-size: 0px 75%;
-  background-size: 100% 100%;
-  font-weight: 300;
-}
-
 .desc {
   font-size: 11pt;
 } 
-
-/* header */
-
-.header {
-  position: absolute;
-  top: 5px;
-  left: 30px;
-  padding: 0px;
-}
-
-.header h1 a {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-size: 20pt;
-  color: #000000;
-  font-weight: 600;
-  margin-top: 0px;
-  letter-spacing: -0.2pt;
-  text-decoration: none;
-}
-
-.header h1 a .man {
-  font-weight: 300;
-}
 
 /* links */
 p a, h2 a {
@@ -137,8 +108,8 @@ p a:hover, h2 a:hover {
 /* menu links */
 
 .menu nav a.link {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-size: 26pt;
+  font-family: 'Rubik Mono One', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 22pt;
   line-height: 33pt;
   font-weight: 300;
   text-decoration: none;
@@ -154,7 +125,7 @@ p a:hover, h2 a:hover {
 
 .menu nav a.link:hover {
   color: #000;
-  font-size: 30pt;
+  font-size: 22pt;
 }
 
 .menu nav a b {
@@ -190,8 +161,8 @@ nav {
 }
 
 .cross {
-  font-family: Libre Franklin, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-size: 40px;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 30px;
   color: #3500d3;
   font-weight: 100;
   float: right;
@@ -211,15 +182,15 @@ input[type="radio"]{
 
 nav p {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-size: 13pt;
-  line-height: 16pt;
+  font-size: 11pt;
+  line-height: 14pt;
   color: #3500d3;
   margin-top: 30px;
 }
 
 nav p a {
-  font-size: 12pt;
-  line-height: 12pt;
+  font-size: 10pt;
+  line-height: 10pt;
   text-decoration: none;
   color: #3500d3;
   border-bottom: 1px solid #3500d3;
