@@ -9,6 +9,7 @@ body {
   animation: fadein 1.5s;
   margin: 0px;
   padding: 0px;
+  text-align: justify;
 }
 
 @keyframes fadein {
