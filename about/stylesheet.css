@@ -2,11 +2,11 @@
 
 body {
   background: #FFFFFF;
-  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 1.5s; /* Firefox < 16 */
-  -ms-animation: fadein 1.5s; /* Internet Explorer */
-  -o-animation: fadein 1.5s; /* Opera < 12.1 */
-  animation: fadein 1.5s;
+/*  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+/*  -moz-animation: fadein 1.5s; /* Firefox < 16 */
+/*  -ms-animation: fadein 1.5s; /* Internet Explorer */
+/*  -o-animation: fadein 1.5s; /* Opera < 12.1 */
+/*  animation: fadein 1.5s;*/
   margin: 0px;
   padding: 0px;
   text-align: justify;
@@ -62,7 +62,7 @@ p b {
 } 
 
 /* links */
-p a, h2 a {
+p a, h2 a, li a {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   border-bottom: 1.5px solid #3500d3;
   color: #3500d3;
@@ -81,6 +81,11 @@ p a:hover, h2 a:hover {
   padding-bottom: 1px;
   text-decoration: none;
   color: #3500d3;
+}
+
+/* lists */
+.list {
+  list-style-type: none;
 }
 
 /* menu icon pos */
