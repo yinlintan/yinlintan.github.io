@@ -1,4 +1,4 @@
-/* Website design by Yin Lin Tan 2020-2021 */
+/* Website design by Yin Lin Tan 2020-2023 */
 
 body {
   background: #FFFFFF;
@@ -15,16 +15,16 @@ body {
 /* main css */
 p, ul {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: #000000;
-  font-size: 13pt;
+  font-size: 15.5pt;
   line-height: 21pt;
   margin-top: 5px;
 }
 
 .hdr {
-  font-size: 22pt;
-  line-height: 38pt;
+  font-size: 27pt;
+  line-height: 42pt;
   color: #363535;
   font-family: 'Rubik Mono One';
   display: block;
@@ -128,7 +128,7 @@ nav {
   width: 25px;
   height: 2px;
   margin-bottom: 6px; 
-  background: #000000;
+  background: #FFFFFF;
 }
 
 .menu-icon:hover {
@@ -195,9 +195,38 @@ nav p a:hover {
   bottom: 0;
   left: 0;
   width: 800px;
-  padding-top: 80px;
+  padding-top: 50px;
   background: 0;
   z-index: 0;
+}
+
+.topbar {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.topbar a {
+  display: inline-block;
+  font-size: 13pt;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  border-bottom: 1.5px solid #3500d3;
+  color: #3500d3;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.topbar a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%233500d3' stroke-width='1.5' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: 1px;
+  text-decoration: none;
+  color: #3500d3;
 }
 
 .content {
