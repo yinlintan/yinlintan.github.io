@@ -38,6 +38,12 @@ p b {
   font-size: 11pt;
 } 
 
+p.info {
+  font-size: 12pt;
+  line-height: 16pt;
+  margin-top: -19px;
+}
+
 /* links */
 p a, h2 a, li a {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
