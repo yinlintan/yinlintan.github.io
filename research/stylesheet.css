@@ -38,6 +38,18 @@ p b {
   font-size: 11pt;
 } 
 
+.rs {
+  font-size: 12pt;
+  line-height: 18pt;
+  padding-top: 0px;
+  margin-top: -15px;
+} 
+
+.cite {
+  font-size: 12pt;
+  line-height: 120%;
+}
+
 p.info {
   font-size: 12pt;
   line-height: 16pt;
