@@ -47,16 +47,17 @@ p b {
 
 .cite {
   font-size: 12pt;
-  line-height: 120%;
+  line-height: 16pt;
 }
 
 .cite a {
   font-size: 12pt;
 }
 
-.cite .author {
+.author {
   font-size: 10pt;
-  line-height: 50%;
+  margin-top: -13px;
+  line-height: 110%;
 }
 
 p.info {
