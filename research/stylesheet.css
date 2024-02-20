@@ -50,6 +50,15 @@ p b {
   line-height: 120%;
 }
 
+.cite a {
+  font-size: 12pt;
+}
+
+.cite .author {
+  font-size: 10pt;
+  line-height: 50%;
+}
+
 p.info {
   font-size: 12pt;
   line-height: 16pt;
