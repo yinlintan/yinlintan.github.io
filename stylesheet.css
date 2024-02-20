@@ -22,6 +22,16 @@ p, ul {
   margin-top: 5px;
 }
 
+.imglink {
+  height: 14pt;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-bottom: none;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+
 .hdr {
   font-size: 27pt;
   line-height: 42pt;
