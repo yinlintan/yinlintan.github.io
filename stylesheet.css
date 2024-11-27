@@ -23,7 +23,7 @@ body {
 
 /* main css */
 p, ul {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-family: Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight: 300;
   color: #000000;
   font-size: 15.5pt;
@@ -38,7 +38,7 @@ p, ul {
   border-bottom: none;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: 1.0;
+  opacity: 0.65;
 }
 
 .hdr {
