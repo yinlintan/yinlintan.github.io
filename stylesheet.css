@@ -12,23 +12,15 @@ body {
   text-align: justify;
 }
 
-.noto-sans-cool {
-  font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
 /* main css */
 p, ul {
-  font-family: Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-weight: 300;
+  font-family: "Inter", Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 400;
   color: #000000;
   font-size: 15.5pt;
   line-height: 21pt;
   margin-top: 5px;
+  letter-spacing: -0.2pt;
 }
 
 .imglink {
@@ -42,7 +34,7 @@ p, ul {
 }
 
 .hdr {
-  font-size: 27pt;
+  font-size: 23pt;
   line-height: 42pt;
   color: #363535;
   font-family: 'Rubik Mono One';
@@ -103,13 +95,16 @@ p.updates b {
 
 /* links */
 p a, h2 a, li a {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-family: Helvetica, Arial, 'Lucida Grande', sans-serif;
   border-bottom: 1.5px solid #3500d3;
   color: #3500d3;
   font-weight: 400;
   padding-bottom: -2pt;
   text-decoration: none;
   text-transform: none;
+  background-size: 0 0;
+  background-position: bottom;
+  transition: 0.2s;
 }
 
 p a:hover, h2 a:hover {
@@ -120,6 +115,7 @@ p a:hover, h2 a:hover {
   border-bottom: 0;
   padding-bottom: 1px;
   text-decoration: none;
+  background-color: #cbcff4;
   color: #3500d3;
 }
 
