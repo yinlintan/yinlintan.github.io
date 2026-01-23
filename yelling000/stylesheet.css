@@ -1,0 +1,428 @@
+/* Website design by Yin Lin Tan 2020-2023 */
+
+@font-face {
+  font-family: 'TerminalGrotesqueOpen';
+  src: url('./fonts/terminal-grotesque_open.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'VG5000';
+  src: url('./fonts/VG5000-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'TerminalGrotesque';
+  src: url('./fonts/terminal-grotesque.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DirectorBold';
+  src: url('./fonts/Director-bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DirectorRegular';
+  src: url('./fonts/Director-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DirectorLight';
+  src: url('./fonts/Director-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'StepsMonoThin';
+  src: url('./fonts/Steps-Mono-Thin.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'StepsMono';
+  src: url('./fonts/Steps-Mono.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background: #FFFFFF;
+/*  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+/*  -moz-animation: fadein 1.5s; /* Firefox < 16 */
+/*  -ms-animation: fadein 1.5s; /* Internet Explorer */
+/*  -o-animation: fadein 1.5s; /* Opera < 12.1 */
+/*  animation: fadein 1.5s;*/
+  margin: 0px;
+  padding: 0px;
+  text-align: justify;
+}
+
+.content h1{
+  font-family: Helvetica;
+  text-decoration: underline;
+  font-size: 40pt;
+  color: #3500d3
+}
+
+/* main css */
+p, ul {
+  font-family: "Inter", Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15.5pt;
+  line-height: 21pt;
+  margin-top: 5px;
+  letter-spacing: -0.2pt;
+  z-index: 2;
+}
+
+.imglink {
+  height: 14pt;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-bottom: none;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.65;
+}
+
+.hdr {
+  font-size: 18pt;
+  color: #000;
+  font-weight: 300;
+  display: block;
+  margin-bottom: -40px;
+}
+
+.hdr i {
+  background-color: yellow;
+}
+
+p b {
+  font-weight: 600;
+}
+
+.desc {
+  font-size: 11pt;
+} 
+
+.rs {
+  font-size: 11pt;
+  line-height: 11pt;
+  padding-top: 0px;
+  margin-top: 0px;
+} 
+
+p.info {
+  font-size: 12pt;
+  line-height: 16pt;
+  margin-top: -19px;
+}
+
+.news {
+  width: 100%;
+  padding: 1px 15px 1px 15px;
+  background-color: #F2F2F2;
+}
+
+.news h3 {
+  font-family: 'Rubik Mono One';
+  margin-bottom: -12px;
+  margin-top: 10px;
+  font-size: 14pt;
+  color: #353535;
+  opacity: 0.9;
+  font-weight: 100;
+}
+
+p.updates {
+  font-size: 11pt;
+  line-height: 16pt;
+  color: #000;
+  opacity: 1.0;
+  /* font-family: 'Noto Sans'; */
+}
+
+p.updates b {
+  font-weight: heavy;
+  color: #000;
+  width: 12%;
+  display: inline-block;
+}
+
+/* links */
+p a, h2 a, li a {
+  color: #3500d3;
+  font-weight: 400;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+p a:hover, h2 a:hover {
+  background-color: #3500d3;
+  color: #fff;
+  text-decoration: none;
+  padding: 2px;
+}
+
+/* lists */
+.list {
+  list-style-type: none;
+}
+
+/* menu icon pos */
+
+.nav {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding: 10px;
+}
+
+/* menu bg */
+
+.menu {
+  position: absolute;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  text-align: right;
+  display: none;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  z-index: 3;
+}
+
+/* menu links */
+
+.menu nav a.link {
+  font-family: 'Rubik Mono One', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 22pt;
+  line-height: 33pt;
+  font-weight: 300;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  padding-bottom: 1.5px;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  text-transform: lowercase;
+}
+
+.menu nav a.link:hover {
+  color: #000;
+  font-size: 22pt;
+}
+
+.menu nav a b {
+  border-bottom: 1px solid #000000;
+  font-weight: 300;
+}
+
+nav {
+  position: absolute;
+  top: 80px;
+  right: 120px;
+}
+
+/* menu icons */
+
+.menu-icon div {
+  width: 25px;
+  height: 2px;
+  margin-bottom: 6px; 
+  background: #FFFFFF;
+}
+
+.menu-icon:hover {
+  cursor: pointer;
+}
+
+.menu-icon:hover div {
+  background: #3500d3;
+}
+
+#radio1:checked ~ .menu{
+  display: block;
+}
+
+.cross {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 30px;
+  color: #3500d3;
+  font-weight: 100;
+  float: right;
+  margin: 20px 50px;
+  transition: all 0.3s ease;
+}
+
+.cross:hover {
+  cursor: pointer;
+}
+
+input[type="radio"]{
+  display:none;
+}
+
+/* menu contact */
+
+nav p {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 11pt;
+  line-height: 14pt;
+  color: #3500d3;
+  margin-top: 30px;
+}
+
+nav p a {
+  font-size: 10pt;
+  line-height: 10pt;
+  text-decoration: none;
+  color: #3500d3;
+  border-bottom: 1px solid #3500d3;
+}
+
+nav p a:hover {
+  cursor: pointer;
+  color: #3500d3;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%233500d3' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+}
+
+/* content containers */
+
+.main {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 1200px;
+  overflow: none;
+  padding-top: 50px;
+  background: 0;
+  z-index: 0;
+}
+
+.topbar {
+  margin-bottom: 20px;
+  width: 100%;
+  position: fixed;
+  z-index: -4;
+  overflow: hidden;
+}
+
+.topbar a {
+  display: inline-block;
+  font-size: 13pt;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  border-bottom: 1.5px solid #ffffff;
+  color: #5648ed;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.topbar .title {
+  color: #5648ed;
+  font-family: 'TerminalGrotesqueOpen', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 100pt;
+  text-align: center;
+}
+
+.topbar a:hover {
+  /** background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%233500d3' stroke-width='1.5' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E"); **/
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 1.5px solid #ffffff;
+  text-decoration: none;
+  color: #5648ed;
+}
+
+.content {
+  width: 100%;
+  padding-bottom: 35px;
+  padding-top: 200px;
+  z-index: 1;
+}
+
+.content img {
+  display: inline-block;
+}
+
+.content .blurb {
+  font-family: 'HelveticaNeue-Light', Helvetica;
+  display: inline-block;
+  font-size: 10pt;
+  color: #000;
+  padding-left: 20px;
+}
+
+/* folio page */
+
+h3 {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  text-transform: lowercase;
+  font-size: 18pt;
+  font-weight: 300;
+  margin: 0px;
+  margin-top: 10px;
+  color: #000000;
+}
+
+table {
+  text-align: left;
+}
+
+tr {
+  width: 23%;
+  vertical-align: top;
+}
+
+td {
+  width: 77%;
+}
+
+/* projects page */
+ 
+h2 {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  text-transform: none;
+  font-size: 13pt;
+  line-height: 15pt;
+  margin: 0px;
+  margin-top: 10px;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+h2 a {
+  font-weight: 300;
+}
